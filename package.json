@@ -17,7 +17,7 @@
     "type": "git",
     "url": "https://github.com/GrabarzUndPartner/nuxt-speedkit"
   },
-  "main": "lib/module",
+  "main": "module",
   "scripts": { 
     "dev": "nuxt example",
     "build": "nuxt build --config-file example/nuxt.config.js",
