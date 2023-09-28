@@ -17,7 +17,7 @@
     "type": "git",
     "url": "https://github.com/GrabarzUndPartner/nuxt-speedkit"
   },
-  "main": "index.js",
+  "main": "lib/module",
   "scripts": { 
     "dev": "nuxt example",
     "build": "nuxt build --config-file example/nuxt.config.js",
@@ -70,7 +70,6 @@
     "listhen": "0.2.13",
     "nuxt": "2.15.8",
     "pinst": "3.0.0",
-    "playwright": "1.23.0",
     "postcss-functions": "4.0.2",
     "postcss-html": "1.4.1",
     "postcss-nesting": "10.1.9",
