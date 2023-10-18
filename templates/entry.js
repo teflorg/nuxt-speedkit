@@ -104,7 +104,7 @@ if (!document.getElementById('nuxt-speedkit-layer')) {
 
   setup(<%= options.performanceMetrics %>);
 
-  if(('__NUXT_SPEEDKIT_AUTO_INIT__' in global && global.__NUXT_SPEEDKIT_AUTO_INIT__) {
+  if('__NUXT_SPEEDKIT_AUTO_INIT__' in global && global.__NUXT_SPEEDKIT_AUTO_INIT__) {
     initApp();
   } else {
     setupSpeedkitLayer(supportedBrowser)
