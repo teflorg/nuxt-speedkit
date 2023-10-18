@@ -99,12 +99,12 @@ if (!document.getElementById('nuxt-speedkit-layer')) {
   initApp();
 } else {
 
-  observeSpeedkitButton('nuxt-speedkit-button-init-reduced-view', initReducedView);
-  observeSpeedkitButton('nuxt-speedkit-button-init-app', () => initApp(true));
+  //observeSpeedkitButton('nuxt-speedkit-button-init-reduced-view', initReducedView);
+  //observeSpeedkitButton('nuxt-speedkit-button-init-app', () => initApp(true));
 
   setup(<%= options.performanceMetrics %>);
 
-  if(('__NUXT_SPEEDKIT_AUTO_INIT__' in global && global.__NUXT_SPEEDKIT_AUTO_INIT__) || ((<%= !options.ignorePerformance %> && hasSufficientPerformance()) && supportedBrowser)) {
+  if(('__NUXT_SPEEDKIT_AUTO_INIT__' in global && global.__NUXT_SPEEDKIT_AUTO_INIT__) {
     initApp();
   } else {
     setupSpeedkitLayer(supportedBrowser)
